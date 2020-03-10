@@ -4,20 +4,22 @@ body { background-color: #000; color: #41FF00; font-family: 'VT323', monospace; 
 
 p { color: #d3d3d3; }
 
-a { text-decoration: none; color: #41FF00; }
+a { text-decoration: none; color: #0000FF; }
 
 pre, h1 { text-align: center; }
 
-pre { z-index: -1; position: absolute; top: 0; left: 0; color: green; font-size: 1.2em; }
+pre { z-index: -1; position: absolute; top: 0; left: 0; color: green; opacity: .7; font-size: 1.37vw; }
 
-#navcontainer { text-align: center; width: 75%; margin: auto; padding: 10px; }
+#navcontainer { text-align: center; width: 100%; margin: auto; padding: 10px; background-color: #000; opacity: .9; border-radius: 5px; }
 
-#navcontainer > nav > a { background-color: #41FF00; color: #000; font-size: 2em; margin: 10px; text-align: center; border-radius: 5px; padding: 5px; opacity: .8; }
+#navcontainer > nav > a { background-color: #41FF00; color: #000; font-size: 2em; margin: 10px; text-align: center; border-radius: 5px; padding: 5px; }
 
 #navcontainer > nav > a:hover { color: #41FF00; background-color: transparent; }
 
+#postcontainer { background-color: #000; opacity: .8; margin-top: 30px; margin-bottom: 30px; padding: 20px; }
+
 h1 > span { font-size: 2.5em; text-align: center; margin: auto; }
 
-.bloglist { list-style: square; }
+.bloglist { list-style: none; color: #0000FF; }
 
 /*# sourceMappingURL=styles.css.map */

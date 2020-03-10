@@ -3,11 +3,8 @@ title: About
 layout: default
 ---
 # About page
-
+<div id="postcontainer">
 This page tells you a little bit about me.
 
-{% highlight ruby linenos %}
-def foo
-  puts 'foo'
-end
-{% endhighlight %}
+Well...it will when I finish the design and actually fill this shit out...
+</div>
