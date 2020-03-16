@@ -46,6 +46,17 @@ pre {
   border-radius: 5px;
 }
 
+#about-image {
+  text-align: center;
+  margin: auto;
+} 
+
+#about-image-container {
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
 #navcontainer > nav > a {
   background-color: #41FF00;
   color: #000;
@@ -62,8 +73,7 @@ pre {
 }
 
 #postcontainer {
-  background-color: #000;
-  opacity: .8;
+  background-color: rgba(0,0,0,.8);
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 20px;

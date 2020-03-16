@@ -12,11 +12,15 @@ pre { z-index: -1; position: absolute; top: 0; left: 0; color: green; opacity: .
 
 #navcontainer { text-align: center; width: 100%; margin: auto; padding: 10px; background-color: #000; opacity: .9; border-radius: 5px; }
 
+#about-image { text-align: center; margin: auto; }
+
+#about-image-container { text-align: center; width: auto; height: auto; }
+
 #navcontainer > nav > a { background-color: #41FF00; color: #000; font-size: 1.7em; margin: 10px; text-align: center; border-radius: 5px; padding: 5px; }
 
 #navcontainer > nav > a:hover { color: #41FF00; background-color: transparent; }
 
-#postcontainer { background-color: #000; opacity: .8; margin-top: 30px; margin-bottom: 30px; padding: 20px; }
+#postcontainer { background-color: rgba(0, 0, 0, 0.8); margin-top: 30px; margin-bottom: 30px; padding: 20px; }
 
 h1 > span { font-size: 2.5em; text-align: center; margin: auto; }
 
