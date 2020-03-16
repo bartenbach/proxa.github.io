@@ -1,4 +1,4 @@
-body { background-color: #000; color: #41FF00; font-family: 'VT323', monospace; font-size: 1.6em; }
+body { background-color: #000; background-image: url("/assets/images/me.png"); background-size: cover; color: #41FF00; font-family: 'VT323', monospace; font-size: 1.6em; }
 
 .container { width: 100%; height: auto; margin: auto; }
 
@@ -12,7 +12,7 @@ pre { z-index: -1; position: absolute; top: 0; left: 0; color: green; opacity: .
 
 #navcontainer { text-align: center; width: 100%; margin: auto; padding: 10px; background-color: #000; opacity: .9; border-radius: 5px; }
 
-#navcontainer > nav > a { background-color: #41FF00; color: #000; font-size: 2em; margin: 10px; text-align: center; border-radius: 5px; padding: 5px; }
+#navcontainer > nav > a { background-color: #41FF00; color: #000; font-size: 1.7em; margin: 10px; text-align: center; border-radius: 5px; padding: 5px; }
 
 #navcontainer > nav > a:hover { color: #41FF00; background-color: transparent; }
 
