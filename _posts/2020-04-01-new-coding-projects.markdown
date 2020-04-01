@@ -1,5 +1,5 @@
 ---
-title:  "Things Are Looking Up"
+title:  "Back to the Basics"
 date:   2020-04-01 17:50:17 -0500
 categories: career programming
 ---
