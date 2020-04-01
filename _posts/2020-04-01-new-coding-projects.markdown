@@ -22,11 +22,12 @@ Anyway, that was a bit of an aside...
 I'll try to update my progress as I finish more of these programming challenges.  If you're doing this as well, please reach 
 out to me so we can talk about our progress!
 
-One thing that literally just went live today was the leetcode 30-day challenge: https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/
+One thing that literally just went live today was the leetcode 30-day challenge:
+* https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/
 
 With work and school, I can't really promise that I'll make it through this - but so far I'm 1/30 because I've already finished today's challenge in Go.  I've decided that I'm going to attempt to use Go for the entire series.  There was a lot of cursing involved, but I ended up getting it done with the following solution:
 
-```go
+{% highlight go %}
 func singleNumber(nums []int) int {
     intMap := make(map[int]bool)
     for _,v := range nums {
@@ -41,7 +42,7 @@ func singleNumber(nums []int) int {
     }
     return 0
 }
-```
+{% endhighlight %}
 
 This solution is O(n) and although not intuitive, meets the requirements.  I'm open to seeing solutions from others, so let me know.
 
