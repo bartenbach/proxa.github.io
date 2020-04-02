@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 90%;
   height: auto;
   margin: auto;
 }
@@ -22,18 +22,8 @@ a {
   color: #0000FF;
 }
 
-pre, h1 {
+h1 {
   text-align: center;
-}
-
-pre {
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: green;
-  opacity: .7;
-  font-size:1.37vw;
 }
 
 #navcontainer {
@@ -76,7 +66,7 @@ pre {
   background-color: rgba(0,0,0,.8);
   margin-top: 30px;
   margin-bottom: 30px;
-  padding: 20px;
+  padding: 10px 50px;
 }
 
 h1 > span {
