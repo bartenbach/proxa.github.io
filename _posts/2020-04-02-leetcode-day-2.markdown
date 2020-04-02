@@ -1,6 +1,6 @@
 ---
 title:  "Leetcode 30-Day Challenge: Day 2"
-date:   2020-04-02 17:50:17 -0500
+date:   2020-04-02 14:50:17 -0500
 categories: career programming
 ---
 So here's the problem statement:
