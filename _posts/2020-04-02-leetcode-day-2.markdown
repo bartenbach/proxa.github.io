@@ -15,7 +15,7 @@ still open to using Go for a lot of things, but right now I just wanted to get t
 with Java.  I couldn't for the life of me figure out how to *split an integer into digits* using Go.  I wasted probably 15-20 minutes 
 trying to figure this out until just going back to good old Java.  Once I did, the solution manifested itself pretty quickly. 
 
-{% highlight java %}
+{{ "{% highlight java " }}%}  
 class Solution {
 
     public boolean isHappy(int n) {
@@ -46,4 +46,4 @@ class Solution {
         return digits;
     }
 }
-{% endhighlight %}
+{{ "{% endhighlight " }}%}
