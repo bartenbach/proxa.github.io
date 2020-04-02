@@ -1,14 +1,13 @@
+@import url(vim.css);
 body { background-color: #000; background-image: url("/assets/images/me.png"); background-size: cover; color: #41FF00; font-family: 'VT323', monospace; font-size: 1.6em; }
 
-.container { width: 100%; height: auto; margin: auto; }
+.container { width: 90%; height: auto; margin: auto; }
 
 p { color: #d3d3d3; }
 
 a { text-decoration: none; color: #0000FF; }
 
-pre, h1 { text-align: center; }
-
-pre { z-index: -1; position: absolute; top: 0; left: 0; color: green; opacity: .7; font-size: 1.37vw; }
+h1 { text-align: center; }
 
 #navcontainer { text-align: center; width: 100%; margin: auto; padding: 10px; background-color: #000; opacity: .9; border-radius: 5px; }
 
@@ -20,7 +19,7 @@ pre { z-index: -1; position: absolute; top: 0; left: 0; color: green; opacity: .
 
 #navcontainer > nav > a:hover { color: #41FF00; background-color: transparent; }
 
-#postcontainer { background-color: rgba(0, 0, 0, 0.8); margin-top: 30px; margin-bottom: 30px; padding: 20px; }
+#postcontainer { background-color: rgba(0, 0, 0, 0.8); margin-top: 30px; margin-bottom: 30px; padding: 10px 50px; }
 
 h1 > span { font-size: 2.5em; text-align: center; margin: auto; }
 
