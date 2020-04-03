@@ -7,7 +7,7 @@ title: Blog
 <ul>
   {% for post in site.posts %}
     <li class="bloglist">
-      <h2><a href="{{ post.url }}">{{ post.title }}</h2>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <p>{{ post.excerpt | strip_html }}</p>
     </li>
     <hr/>
