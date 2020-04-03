@@ -3,6 +3,8 @@ title:  "Leetcode 30-Day Challenge: Day 2"
 date:   2020-04-02 14:50:17 -0500
 categories: career programming
 ---
+# Happy Numbers
+
 So here's the problem statement:
 
 > Write an algorithm to determine if a number is "happy".
