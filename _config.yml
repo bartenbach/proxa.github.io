@@ -1,3 +1,6 @@
+url: "https://bartenbach.io"
+plugins:
+  - jekyll-sitemap
 defaults:
   - scope:
       path: ""
@@ -8,7 +11,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-
 markdown: kramdown
 highlighter: rouge
 kramdown:

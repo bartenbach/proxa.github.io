@@ -1,2 +1,0 @@
-# bartenbach.io
-After retiring alureon.net, I've decided that I still want a web presence, but I don't like the overhead of self-hosting.  After toying with apache in an EC2 instance with this same Jekyll site, I stumbled upon Github Pages.  This is obviously the most maintainable way forward since all updates to the site happen simply with a push to the repository.  I plan to have this be my web-home for the forseeable future.
