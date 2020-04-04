@@ -1,9 +1,9 @@
 ---
-title:  "Back to the Basics - Leetcode 30-day challenge Day 1"
+title:  "Leetcode 30-day Challenge: Day 1"
 date:   2020-04-01 17:50:17 -0500
 categories: career programming
 ---
-# Single Number
+# [Single Number](https://leetcode.com/problems/single-number/)
 
 I think making the transistion onto the management track was a good move.  I've learned a lot, but one other unexpected byproduct 
 was that my passion for computer science was reignited.

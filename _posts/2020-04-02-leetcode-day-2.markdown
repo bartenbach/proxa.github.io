@@ -3,9 +3,9 @@ title:  "Leetcode 30-Day Challenge: Day 2"
 date:   2020-04-02 14:50:17 -0500
 categories: career programming
 ---
-# Happy Numbers
+# [Happy Number](https://leetcode.com/problems/happy-number/)
 
-So here's the problem statement:
+Problem statement:
 
 > Write an algorithm to determine if a number is "happy".
 > A happy number is a number defined by the following process: Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers.
