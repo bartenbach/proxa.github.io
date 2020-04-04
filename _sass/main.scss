@@ -1,29 +1,41 @@
 body {
-  background-color: #000;
+  background-color: rgb(0,0,0);
   background-image: url("/assets/images/me.png");
   background-size: cover;
-  color: #41FF00;
+  color: rgb(0,170,0);
   font-family: 'VT323', monospace;
-  font-size: 1.6em;
+  font-size: 1em;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   height: auto;
   margin: auto;
 }
 
 p {
-  color: #d3d3d3;
+  color: rgb(170,170,170);
+  font-size: 1.4em;
 }
 
 a {
   text-decoration: none;
-  color: #0000FF;
+  color: rgb(0,0,170);
+}
+
+blockquote > p {
+  color: rgb(0,170,0);
 }
 
 h1 {
   text-align: center;
+}
+
+.gray {
+  color: rgb(170,170,170);
 }
 
 #navcontainer {
@@ -31,8 +43,7 @@ h1 {
   width: 100%;
   margin: auto;
   padding: 10px;
-  background-color: #000;
-  opacity: .9;
+  background-color: rgb(0,0,0);
   border-radius: 5px;
 }
 
@@ -48,8 +59,8 @@ h1 {
 }
 
 #navcontainer > nav > a {
-  background-color: #41FF00;
-  color: #000;
+  background-color: rgb(85,225,85);
+  color: rgb(0,0,0);
   font-size: 1.7em;
   margin: 10px;
   text-align: center;
@@ -58,15 +69,18 @@ h1 {
 }
 
 #navcontainer > nav > a:hover {
-  color: #41FF00;
+  color: rgb(0,170,0);
   background-color: transparent;
 }
 
 #postcontainer {
-  background-color: rgba(0,0,0,.8);
+  background-color: rgba(0,0,0,.9);
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 30px;
   margin-bottom: 30px;
   padding: 10px 50px;
+  width: 90%;
 }
 
 h1 > span {
@@ -77,5 +91,5 @@ h1 > span {
 
 .bloglist {
   list-style: none;
-  color: #0000FF;
+  color: rgb(170,170,170);
 }
