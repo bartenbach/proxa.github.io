@@ -1,6 +1,6 @@
 body {
-  background-color: rgb(0,0,0);
-  background-image: url("/assets/images/me.png");
+  background-color: rgb(85,85,85);
+/*  background-image: url("/assets/images/me.png");*/
   background-size: cover;
   color: rgb(0,170,0);
   font-family: 'VT323', monospace;
@@ -26,6 +26,14 @@ a {
   color: rgb(0,0,170);
 }
 
+a:hover {
+  color: rgb(85,255,255);
+}
+
+strong {
+  color: rgb(255,255,255);
+}
+
 blockquote > p {
   color: rgb(0,170,0);
 }
@@ -42,9 +50,7 @@ h1 {
   text-align: center;
   width: 100%;
   margin: auto;
-  padding: 10px;
   background-color: rgb(0,0,0);
-  border-radius: 5px;
 }
 
 #about-image {
@@ -59,22 +65,19 @@ h1 {
 }
 
 #navcontainer > nav > a {
-  background-color: rgb(85,225,85);
-  color: rgb(0,0,0);
+  color: rgb(0,170,0);
   font-size: 1.7em;
   margin: 10px;
   text-align: center;
-  border-radius: 5px;
-  padding: 5px;
 }
 
 #navcontainer > nav > a:hover {
-  color: rgb(0,170,0);
+  color: rgb(85,255,85);
   background-color: transparent;
 }
 
 #postcontainer {
-  background-color: rgba(0,0,0,.9);
+  background-color: rgb(85,85,85);
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
