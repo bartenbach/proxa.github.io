@@ -1,3 +1,3 @@
 #!/bin/bash
-bundles install
+bundle install
 bundle exec jekyll serve
