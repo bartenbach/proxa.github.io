@@ -5,6 +5,8 @@ categories: career programming
 ---
 # [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 
+Difficulty: Easy
+
 Problem statement:
 
 > Say you have an array for which the ith element is the price of a given stock on day i.

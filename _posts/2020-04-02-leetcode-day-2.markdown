@@ -5,6 +5,8 @@ categories: career programming
 ---
 # [Happy Number](https://leetcode.com/problems/happy-number/)
 
+Difficulty: Easy
+
 Problem statement:
 
 > Write an algorithm to determine if a number is "happy".

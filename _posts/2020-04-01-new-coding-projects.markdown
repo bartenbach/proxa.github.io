@@ -5,6 +5,8 @@ categories: career programming
 ---
 # [Single Number](https://leetcode.com/problems/single-number/)
 
+Difficulty: Easy
+
 I think making the transistion onto the management track was a good move.  I've learned a lot, but one other unexpected byproduct 
 was that my passion for computer science was reignited.
 
