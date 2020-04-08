@@ -1,6 +1,6 @@
 ---
 title:  "Leetcode 30-Day Challenge: Day 6"
-date:   2020-04-05 14:50:17 -0500
+date:   2020-04-06 14:50:17 -0500
 categories: career programming
 ---
 # [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
