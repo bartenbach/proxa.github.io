@@ -3,7 +3,7 @@ title:  "Leetcode 30-Day Challenge: Day 8"
 date:   2020-04-08 18:50:17 -0500
 categories: career programming
 ---
-# [Midle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
+# [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 
 Difficulty: Easy
 
