@@ -52,14 +52,6 @@ func middleNode(head *ListNode) *ListNode {
         elements = append(elements, head)
         head = head.Next
     }
-    targetElement := getTargetElement(elements)
-    return elements[targetElement]
-}
-
-func getTargetElement(elements []*ListNode) int {
-    if (len(elements) % 2 == 0) {
-        return (len(elements) / 2) 
-    }
-    return (len(elements) / 2)
+    return elements[len(elements) / 2]
 }
 {% endhighlight %}
