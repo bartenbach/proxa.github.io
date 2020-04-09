@@ -3,7 +3,7 @@ body {
 /*  background-image: url("/assets/images/me.png");*/
   background-size: cover;
   color: rgb(0,170,0);
-  font-family: 'VT323', monospace;
+  font-family: 'Inconsolata', monospace;
   font-size: 1em;
   margin-top: 0px;
   margin-left: 0px;
@@ -95,4 +95,11 @@ h1 > span {
 .bloglist {
   list-style: none;
   color: rgb(170,170,170);
+}
+
+.highlight {
+  font-size: 1.4em;
+  background-color: #151515;
+  color: #d0d0d0;
+  padding: 10px;
 }
