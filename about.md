@@ -14,7 +14,7 @@ watching weird shows on Netflix with my girlfriend Mikayla and the cats (more on
 
 <h3>What the hell is this design?</h3>
 <p>Well, for starters, I must unfortunately admit I designed this look entirely myself.  The design is a throwback to the <a href="https://en.wikipedia.org/wiki/VT100">VT100</a> terminal, although probably slightly more grotesque (if that's possible).  It's a design only a mother could love (or a weird CS major, I guess).</p>
-<p>Another interesting snippet is that this design uses <a href="https://en.wikipedia.org/wiki/ANSI_escape_code">ANSI VGA color values</a> as to most accurately represent a video terminal.</p>
+<p>Originally this designed used <a href="https://en.wikipedia.org/wiki/ANSI_escape_code">ANSI VGA color values</a> as to most accurately represent a video terminal, but it was too horrific to look at on a regular basis so that is no longer the case.  Great idea in theory, not so great in practice.</p>
 
 <h3>Where's the cat information you promised me?</h3>
 <p>About that...Yeah, I lied.  Mikayla's website is still in the works.  I'll link it here when it goes live, though.</p>

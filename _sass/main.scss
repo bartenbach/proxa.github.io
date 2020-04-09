@@ -1,8 +1,8 @@
 body {
-  background-color: rgb(85,85,85);
+  background-color: #151515;
 /*  background-image: url("/assets/images/me.png");*/
   background-size: cover;
-  color: rgb(0,170,0);
+  color: #fff;
   font-family: 'Inconsolata', monospace;
   font-size: 1em;
   margin-top: 0px;
@@ -17,25 +17,32 @@ body {
 }
 
 p {
-  color: rgb(170,170,170);
+  color: aliceblue;
   font-size: 1.4em;
 }
 
 a {
   text-decoration: none;
-  color: rgb(0,0,170);
+  color: #0000ff;
 }
 
 a:hover {
-  color: rgb(85,255,255);
+  color: cyan;
 }
 
 strong {
   color: rgb(255,255,255);
 }
 
+blockquote {
+  font-family: monospace;
+  background-color: darkblue;
+  padding: 10px;
+  border-radius: 7px;
+} 
+
 blockquote > p {
-  color: rgb(0,170,0);
+  color: #aaa;
 }
 
 h1 {
@@ -65,19 +72,19 @@ h1 {
 }
 
 #navcontainer > nav > a {
-  color: rgb(0,170,0);
+  color: #fff;
   font-size: 1.7em;
   margin: 10px;
   text-align: center;
 }
 
 #navcontainer > nav > a:hover {
-  color: rgb(85,255,85);
+  color: cyan;
   background-color: transparent;
 }
 
 #postcontainer {
-  background-color: rgb(85,85,85);
+  background-color: #151515;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -99,7 +106,8 @@ h1 > span {
 
 .highlight {
   font-size: 1.4em;
-  background-color: #151515;
+  background-color: #101010;
   color: #d0d0d0;
   padding: 10px;
+  border-radius: 7px;
 }
