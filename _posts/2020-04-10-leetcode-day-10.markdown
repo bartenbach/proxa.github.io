@@ -34,8 +34,10 @@ So...fun fact, I deleted all my code for this challenge on accident and had to r
 
 That being said, I've been less and less interested in "cool" hardware and more and more interested in *ergonomics*.  Things that help keep my body in top shape so I can live a long, happy life.  Stuff like standing desks, chairs or stools that improve posture, mice that are made to minimize the effects of RSI & carpal tunnel, etc.  Of course, that has led me to really absurd ideas like swapping keyboard maps (something I've actually done before.  I can type Dvorak decently.  I could probably make an entire separate post on my feelings about alternative keymaps though), or keyboards like the Kinesis Advantage 2 and ErgoDox EZ (pictured below).
 
-![Kinesis Advantage 2](/assets/images/kinesis.jpg)
-![ErgoDox EZ](/assets/images/ergodox.jpg)
+![Kinesis Advantage 2](/assets/images/kinesis.jpg){: .center-image }
+*The Kinesis Advantage 2*
+![ErgoDox EZ](/assets/images/ergodox.jpg){: .center-image }
+*ErgoDox EZ*
 
 Anyway, I'm going down a rabbit hole here, but basically I've been trying to redo my home setup to make it match what I currently want in a work desk - because it's definitely not that.  The first part came today, and that was my 32 inch BenQ HDR display.  It's awesome.  I forgot how badly the web sucked in 4k though.  Still looks like we have a ways to go there, so I had to scale the text up a bit otherwise it's absurd and unreadable.
 

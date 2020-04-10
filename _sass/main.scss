@@ -34,10 +34,6 @@ a:hover {
   color: cyan;
 }
 
-strong {
-  color: rgb(255,255,255);
-}
-
 blockquote {
   font-family: monospace;
   background-color: darkblue;
@@ -137,9 +133,22 @@ h1 {
 }
 
 #postcontainer img {
- width: 700px;
+ width: 900px;
  border-color: #505050;
  border-style: solid;
  border-width: 1px;
  border-radius: 7px;
+ margin-top: 20px;
 } 
+
+.center-image {
+ margin: 0 auto;
+ display: block;
+}
+
+img + em { 
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
