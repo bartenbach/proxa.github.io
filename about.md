@@ -2,7 +2,6 @@
 title: About
 layout: default
 ---
-# About page
 <div id="postcontainer">
   <p>Hello, fellow human!  Welcome to my <em>web sight</em>.  My name is Blake Bartenbach and this is my
 <strong>personal</strong> <em>web sight</em>.  I am a Software Engineer by trade and my hobbies include running, eating pizza, and 
