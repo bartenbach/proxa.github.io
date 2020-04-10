@@ -1,6 +1,6 @@
 ---
 title:  "Leetcode 30-Day Challenge: Day 9"
-date:   2020-04-08 18:50:17 -0500
+date:   2020-04-09 18:50:17 -0500
 categories: career programming
 ---
 # [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)

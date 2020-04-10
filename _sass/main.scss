@@ -21,6 +21,10 @@ p {
   font-size: 1.4em;
 }
 
+li {
+  font-size: 1.4em;
+}
+
 a {
   text-decoration: none;
   color: lightskyblue;
@@ -131,3 +135,11 @@ h1 {
   border-width: 1px;
   margin-left: 20px;
 }
+
+#postcontainer img {
+ width: 700px;
+ border-color: #505050;
+ border-style: solid;
+ border-width: 1px;
+ border-radius: 7px;
+} 
