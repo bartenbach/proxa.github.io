@@ -2,19 +2,14 @@
 title: About
 layout: default
 ---
-<div id="postcontainer">
-  <p>Hello, fellow human!  Welcome to my <em>web sight</em>.  My name is Blake Bartenbach and this is my
-<strong>personal</strong> <em>web sight</em>.  I am a Software Engineer by trade and my hobbies include running, eating pizza, and 
-watching weird shows on Netflix with my girlfriend Mikayla and the cats (more on the cats later).</p>
+Hello, fellow human!  Welcome to my _web sight_.  My name is Blake Bartenbach and this is my
+**personal** _web sight_.  I am a Software Engineer by trade and my hobbies include running, eating pizza, and 
+watching weird shows on Netflix with my girlfriend Mikayla and the cats (more on the cats later).
 
-<div id="about-image-container">
-  <img id="about-image" alt="me being weird" src="/assets/images/why.png" width="500px"/>
-</div>
+![an image of me and my girlfriend on a UTV](/assets/images/utv.jpg){: width: 500px; }
 
-<h3>What the hell is this design?</h3>
-<p>Well, for starters, I must unfortunately admit I designed this look entirely myself.  The design is a throwback to the <a href="https://en.wikipedia.org/wiki/VT100">VT100</a> terminal, although probably slightly more grotesque (if that's possible).  It's a design only a mother could love (or a weird CS major, I guess).</p>
-<p>Originally this designed used <a href="https://en.wikipedia.org/wiki/ANSI_escape_code">ANSI VGA color values</a> as to most accurately represent a video terminal, but it was too horrific to look at on a regular basis so that is no longer the case.  Great idea in theory, not so great in practice.</p>
+### What's up with the design?
+The design originally attempted to mimic a VT100 terminal, but it was just to horrific to look at.  From there it's just slowly continued to evolve to whatever I felt looked "good".  I'm not an expert web developer, but at least I can say I designed the entire website myself.
 
-<h3>Where's the cat information you promised me?</h3>
-<p>About that...Yeah, I lied.  Mikayla's website is still in the works.  I'll link it here when it goes live, though.</p>
-</div>
+### Where's the cat information you promised me?
+About that...Yeah, I lied.  Mikayla's website is still in the works.  I'll link it here when it goes live, though.
