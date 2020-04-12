@@ -1,6 +1,6 @@
 ---
 title: About
-layout: default
+layout: about
 ---
 Hello, fellow human!  Welcome to my _web sight_.  My name is Blake Bartenbach and this is my
 **personal** _web sight_.  I am a Software Engineer by trade and my hobbies include running, eating pizza, and 
