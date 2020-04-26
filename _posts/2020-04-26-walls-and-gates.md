@@ -3,9 +3,9 @@ title:  "Leetcode: Walls and Gates"
 date:   2020-04-26 08:27:17 -0500
 categories: career programming
 ---
-# [Walls and Gates]()
+# [Walls and Gates](https://leetcode.com/explore/learn/card/queue-stack/231/practical-application-queue/1373/)
 
-### Difficulty: ?
+### Difficulty: Undefined
 
 ## Problem statement:
 
