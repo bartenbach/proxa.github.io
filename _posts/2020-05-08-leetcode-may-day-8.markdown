@@ -145,13 +145,12 @@ func majorityElement(nums []int) int {
 I absolutely lost it during this problem.  This really should not be difficult, but Go refused to provide a float from integer division unless I casted literally every single element into a float64.  I find this is one of the things that irritates me about using Go as compared to Java.  I could really write an entire blog post at this point about things in Go that I've found that infuriate me.  Among this would be lack of generics and the interface implementation.
 {% highlight go %}
 func checkStraightLine(coordinates [][]int) bool {
-    var slope float64 = float64((float64(coordinates[1][1]) - float64(coordinates[0][1]))) / float64((float64(coordinates[1][0]) - float64(coordinates[0][0])))
+    var slope float64 = float64(coordinates[1][1] - coordinates[0][1]) / float64(coordinates[1][0] - coordinates[0][0])
     for i := 1; i < len(coordinates) - 1; i++ {
-        tmpSlope := float64((float64(coordinates[i+1][1]) - float64(coordinates[i][1]))) / float64((float64(coordinates[i+1][0]) - float64(coordinates[i][0])))
+        tmpSlope := float64(coordinates[i+1][1] - coordinates[i][1]) / float64(coordinates[i+1][0] - coordinates[i][0])
         if tmpSlope != slope {
             return false
         }
     }
     return true
-}
 {% endhighlight %}
