@@ -64,4 +64,34 @@ func floodFill(image [][]int, sr int, sc int, newColor int) [][]int {
 ### Runtime: **12 ms**
 ### Memory Usage: **4.5 MB**
 
+## [Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)
+
+## Difficulty: Medium
+
+A medium?  Really?  Who's doing the rankings here?  I'll do an easy that takes me hours but a medium takes 10 minutes.
+
+Well, this is pretty straightforward.  I just add elements to a list and delete them when they come around a second time.
+
+func singleNonDuplicate(nums []int) int {
+    seen := []int{}
+    for _,v := range nums {
+        contains := false
+        for i := range seen {
+            if seen[i] == v {
+                contains = true
+                seen = append(seen[:i], seen[i+1:]...)
+                break
+            }
+        }        
+        if !contains {
+            seen = append(seen, v)
+        }
+    }
+    return seen[0]
+}
+
+## Submission Details
+### Runtime: 4 ms, faster than 99.41% of Go online submissions for Single Element in a Sorted Array.
+### Memory Usage: 4.1 MB, less than 100.00% of Go online submissions for Single Element in a Sorted Array.
+
 
