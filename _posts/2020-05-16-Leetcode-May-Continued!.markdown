@@ -72,6 +72,7 @@ A medium?  Really?  Who's doing the rankings here?  I'll do an easy that takes m
 
 Well, this is pretty straightforward.  I just add elements to a list and delete them when they come around a second time.
 
+{% highlight go %}
 func singleNonDuplicate(nums []int) int {
     seen := []int{}
     for _,v := range nums {
@@ -89,6 +90,7 @@ func singleNonDuplicate(nums []int) int {
     }
     return seen[0]
 }
+{% endhighlight %}
 
 ## Submission Details
 ### Runtime: 4 ms, faster than 99.41% of Go online submissions for Single Element in a Sorted Array.
