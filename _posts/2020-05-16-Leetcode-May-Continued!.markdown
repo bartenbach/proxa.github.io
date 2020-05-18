@@ -11,7 +11,7 @@ categories: career programming
 Doesn't it seem like every problem on this website is categorized "Easy"?  I feel like this question is at least a Medium...
 
 This is just another breadth-first search algorithm problem, but I really like the guise of having a practical application with the image fill example. This
- reminds me of the paint bucket tool in and image editing software.  You just have to keep looking for like pixels in all four directions and replacing the content if and only if 
+ reminds me of the paint bucket tool in any image editing software.  You just have to keep looking for like pixels in all four directions and replacing the content if and only if 
  the color matches the original color that you started with.
 
 There were some faster solutions to this problem, but I would argue that mine is WAY easier to read (and apparently uses less memory than 100% of Go submissions).
