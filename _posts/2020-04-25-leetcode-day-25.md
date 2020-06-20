@@ -7,10 +7,6 @@ categories: career programming
 
 ### Difficulty: Medium
 
-## Problem statement:
-
->     
-
 ## Solution
 
 This problem is a prime example of the creative genius at work at leetcode where you're given a problem that on the surface appears to intuitive to solve, and yet the further you dig into it, the more it rears its ugly head.
