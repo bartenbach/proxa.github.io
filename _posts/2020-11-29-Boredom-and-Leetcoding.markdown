@@ -100,3 +100,50 @@ class Solution {
     }
 }
 {% endhighlight %}
+
+## [Design Parking System](https://leetcode.com/problems/design-parking-system)
+
+This one is pretty straightforward, although it's easy to do this in a really stupid way.
+
+My submission is apparently faster than 99.73% of online submissions.
+
+## Difficulty
+Easy
+
+{% highlight java %}
+class ParkingSystem {
+    
+    int[] spots = new int[3];
+
+    public ParkingSystem(int big, int medium, int small) {
+        spots[0] = big;
+        spots[1] = medium;
+        spots[2] = small;
+    }
+    
+    public boolean addCar(int carType) {
+        if (carType == 1) {
+            return updateSpots(0);
+        } else if (carType == 2) {
+            return updateSpots(1);
+        } else {
+            return updateSpots(2);
+        }
+        
+    }
+    
+    public boolean updateSpots(int spotId) {
+        if (spots[spotId] > 0) {
+            spots[spotId]--;
+            return true;
+        }
+        return false;
+    }
+}
+
+/**
+ * Your ParkingSystem object will be instantiated and called as such:
+ * ParkingSystem obj = new ParkingSystem(big, medium, small);
+ * boolean param_1 = obj.addCar(carType);
+ */
+{% endhighlight %}
