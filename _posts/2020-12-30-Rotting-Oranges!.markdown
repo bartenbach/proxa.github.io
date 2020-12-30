@@ -25,7 +25,7 @@ Medium
 {% highlight java %}
 class Solution {
     public int orangesRotting(int[][] grid) {
-        OrangeManager orangeManager = setupOrangeManager(grid);
+        OrangeManager orangeManager = new OrangeManager(grid);
         int minutes = 0;
         boolean changed = true;
         while (changed && orangeManager.getFresh().size() > 0) {
@@ -34,7 +34,7 @@ class Solution {
         }
         return orangeManager.getFresh().size() > 0 ? -1 : minutes;
     }
-
+    
     public boolean rotNearbyOranges(OrangeManager orangeManager) {
         boolean changed = false;
         // needed to prevent ConcurrentModification Exception
@@ -56,40 +56,36 @@ class Solution {
         orangeManager.getRotten().addAll(newlyRottenOranges);
         return changed;
     }
-
-    public OrangeManager setupOrangeManager(int[][] grid) {
-        OrangeManager orangeManager = new OrangeManager();
-        for (int i = 0; i < grid.length; i++) {
-            for (int j = 0; j < grid[i].length; j++) {
-                switch(grid[i][j]) {
-                    case 1:
-                        orangeManager.getFresh().add(new Coord(i,j));
-                        break;
-                    case 2:
-                        orangeManager.getRotten().add(new Coord(i,j));
-                        break;
-                    default:
-                        break;
-                }
-            }
-        }
-        return orangeManager;
-    }
 }
 
 class OrangeManager {
     private Queue<Coord> rotten;
     private Queue<Coord> fresh;
-
-    public OrangeManager() {
+    
+    public OrangeManager(int[][] grid) {
         this.rotten = new ArrayDeque<>();
         this.fresh = new ArrayDeque<>();
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[i].length; j++) {
+                switch(grid[i][j]) {
+                    case 1:
+                        this.fresh.add(new Coord(i,j));
+                        break;
+                    case 2:
+                        this.rotten.add(new Coord(i,j));
+                        break;
+                    default:
+                        // no orange
+                        break;
+                }
+            }
+        }
     }
-
+    
     public Queue<Coord> getRotten() {
         return this.rotten;
     }
-
+    
     public Queue<Coord> getFresh() {
         return this.fresh;
     }
@@ -98,21 +94,22 @@ class OrangeManager {
 class Coord {
     int row;
     int col;
+    
     public Coord(int row, int col) {
         this.row = row;
         this.col = col;
     }
-
+    
     @Override
     public boolean equals(Object o) {
         if (o == null || !(o instanceof Coord)) {
             return false;
         }
         Coord coord = (Coord) o;
-        return this.row == coord.row
+        return this.row == coord.row 
             && this.col == coord.col;
     }
-
+    
     @Override
     public String toString() {
         return "[" + this.row + "," + this.col + "]";
