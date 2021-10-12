@@ -2,5 +2,5 @@
   link: /
 - name: /about
   link: /about.html
-    #- name: /resume
-    #link: /resume.html
+- name: /ansible
+  link: /ansible.html
