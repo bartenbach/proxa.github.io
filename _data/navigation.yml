@@ -2,7 +2,5 @@
   link: /
 - name: /about
   link: /about.html
-- name: /blog
-  link: /blog.html
-- name: /resume
-  link: /resume.html
+    #- name: /resume
+    #link: /resume.html

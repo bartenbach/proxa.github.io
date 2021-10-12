@@ -1,3 +1,6 @@
 #!/bin/bash
 bundle install
-bundle exec jekyll serve
+[[ $? -eq 0 ]] || exit;
+bundle exec jekyll serve &
+sleep 2
+open http://localhost:4000
