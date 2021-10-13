@@ -6,7 +6,8 @@ layout: about
 # Ansible Anti-Patterns
 
 ## The Shell and Command Modules
-Stop using these, please. Stop it. 
+Stop using these, please. Stop it.
+![Pointless shell module usage](/assets/images/file-module.jpg)
 
 It never fails, every time I try to bring this up, I hear something to the effect of:
 
