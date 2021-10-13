@@ -15,21 +15,21 @@ _"Aww, come on man. They're not that bad. I mean it works heheheh! Gets the job 
 ![The guy who uses the shell module](assets/images/clown.jpg){: .center-image style="width: 300px;"  } *A regular user of the shell and command module*
 
 ### They break `--check` mode
-Since it doesn't work in check mode, you can no longer test your playbooks/roles using `--check`.
+Since these modules don't work in check mode, you can no longer test your playbooks using `--check`.
 
 ### They always report as `changed`
-Regardless of what actually happened, the shell and command modules report changes, so the output of a shell or command task is meaningless and tells you almost nothing.
+Regardless of what actually happened, the shell and command modules report changes, so the output of a shell or command task is meaningless and tells you almost nothing (aside from the fact that it didn't error out).
 
-If you stack enough of these up, you really can tell nothing from the output at all, regardless of what you're doing.
+If you stack enough of these up, you can tell just about nothing from the output at all. Every thing just says "changed" and it's all lies.
 
-The workaround here is to write custom handlers for `changed_when` and `failed_when` which is tedious and unnecessary if you just use a module instead.
+The workaround here is to write custom handlers for `changed_when` and `failed_when` which is tedious, error-prone, and unnecessary because in 95% of cases you can simply use an Ansible module instead.
 
 ### Defeats the purpose of using Ansible
-What if I wrote a Java program to open a Python shell and execute Python code for me? Would that not be strange and unnecessary not to mention inefficient?
+What if I wrote a Java program to open a Python shell and execute Python code? Would that not be strange and unnecessary - not to mention inefficient?
 
-That is exactly what you are doing when you do this. You are writing a shell script, but instead of writing it normally you are embedding it in YAML.
+This is exactly what you are doing when you use the shell and command modules. You are writing a shell script, but instead of writing it in the usual way you are embedding it in YAML.
 
-You're also missing out on all the edge cases that the module has already thought of and been crafted to catch/handle. Updating ansible lets you get updates to these modules, but does nothing for your shell commands.
+You're also missing out on all the edge cases that the dedicated Ansible modules have already thought of and have been crafted to catch/handle. Updating ansible lets you get updates to these modules, but does nothing for your shell commands.
 
 ### May be idempotent...may not be!
 It's like a fun little game - can you run it twice and get the same results or not? It's anybody's guess!
@@ -37,4 +37,12 @@ It's like a fun little game - can you run it twice and get the same results or n
 Some shell commands are, some aren't.
 
 ### Dependent on the user's shell configuration
-I've never seen this actually cause a problem, but I'm adding it for completeness anyway.
+I've never seen this actually cause a problem, but I'm adding it for completeness anyway. You might get zsh, bash, csh, dash, tcsh, ksh...(you get the point).
+
+### Do you just really hate shell scripting?
+Absolutely not! Shell scripts are incredibly useful for a variety of different tasks, and I encourage everyone to learn to write them. However, in this particular case it should really be avoided at all costs. If you want to write a shell script, just write a shell script - don't embed it in YAML.
+
+### Isn't this unavoidable sometimes?
+It is. I have run into situations where I have had to use the modules I'm begging you not to use in this article. *However,* when I do use them, I add a comment explaining *why* I had to use them and what I wanted to accomplish. 
+
+In 90% of the Ansible peer reviews I have done with shell and command modules being used, people are not using the shell and command modules because they have no other choice. They are usually using them because they don't know any better - and that's why I am writing this article.
