@@ -1,19 +1,13 @@
 ---
-title: ansible
-layout: about
+title: Ansible Anti-Patterns
+layout: article
 ---
 
-# Ansible Anti-Patterns
-
 ## The Shell and Command Modules
-Stop using these, please. Stop it.
-![Pointless shell module usage](/assets/images/file-module.jpg){: .center-image}
+![Pointless shell module usage](/assets/images/file-module.jpg){: .center-image style="width: 400px;"}
 
-It never fails, every time I try to bring this up, I hear something to the effect of:
-
-_"Aww, come on man. They're not that bad. I mean it works heheheh! Gets the job done!"_
-
-![The guy who uses the shell module](assets/images/clown.jpg){: .center-image style="width: 300px;"  } *A regular user of the shell and command module*
+![The guy who uses the shell module](assets/images/clown.jpg){: .center-image style="width: 300px;"  }*"Come on, man. They're not that bad. They work don't they? Gets the job done, doesn't it?"*
+*- the guy writing entire roles using the shell and command modules*{: style="display: block;text-align: center" }
 
 ### They break `--check` mode
 Since these modules don't work in check mode, you can no longer test your playbooks using `--check`.
@@ -45,7 +39,7 @@ Maybe I'm reaching here, but if you're writing a lot of ANYTHING, you should be 
 
 Yes, you could configure `ansible-lint` to ignore this, but it's generating a finding for good reason. Interestingly, it doesn't complain about the windows ones.
 
-![ansible-lint](/assets/images/ansible-lint.jpg){: .center-image }
+![ansible-lint](/assets/images/ansible-lint.jpg){: .center-image style="width:500px;"}
 
 #### Do you just really hate shell scripting?
 Absolutely not! Shell scripts are incredibly useful for a variety of different tasks, and I encourage everyone to learn to write them. However, in this particular case it should really be avoided at all costs. If you want to write a shell script, just write a shell script - don't embed it in YAML.

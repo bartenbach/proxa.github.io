@@ -11,13 +11,19 @@ body {
 }
 
 code {
-  font-family: 'Noto Sans Mono', monospace;
-  color: #069f39;
+  font-family: 'Share Tech Mono', monospace;
+  color: #b9ace8;
 }
 
 pre > code {
   font-family: 'Noto Sans Mono', monospace;
   color: #fff;
+}
+
+hr {
+  opacity: .2;
+  width: 80%;
+  border-color: rgba(255,255,255,.59);
 }
 
 .container {
@@ -59,11 +65,18 @@ h1 {
 }
 
 h2 {
-  color: #00ccf6;
+  text-align: center;
+  color: #b3f2ff;
 }
 
 h3 {
-  color: #0e8396;
+  color: #a8dde6;
+  margin-top: 40px;
+}
+
+h4 {
+  color: #cdcdab;
+  margin-top: 30px;
 }
 
 em {
@@ -171,4 +184,15 @@ img + em {
   margin: 0 auto;
   display: block;
   text-align: center;
+}
+
+#toc {
+  background-color: rgba(0,0,0,.3);
+  border-radius: 7px;
+  display: table;
+  margin: auto;
+  padding: 0px 20px 0px 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: .7em;
 }
